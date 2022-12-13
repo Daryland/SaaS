@@ -20,7 +20,7 @@
 
 	[aria-expanded="true"] ~ ul li a {
 		margin-right: var(--size-20);
-    color: var(--font-color-dark);
+    color: black;
 	}
 
 	footer .footer-col:nth-child(3) {

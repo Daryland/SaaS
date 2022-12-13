@@ -75,7 +75,7 @@ img {
 }
 
 .container {
-  width: 100%;
+  width: 100%; 
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -118,10 +118,9 @@ img {
   gap: 8px;
 }
 
+
 @media (min-width: 768px) {
-  .pricing-table,
-  .testimonial-grid,
-  .footer-bottom-wrapper {
+  .container {
       max-width: 720px;
   }
 }

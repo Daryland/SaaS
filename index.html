@@ -7,8 +7,8 @@
     <meta name="description" content="My CodeRAD website">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/styles.css">
@@ -242,23 +242,25 @@
 
     <!-- Brands -->
     <section class="brands">
-      <span class="brand-title"><p>Trusted by the world's best</p></span>
-      <div class="brand-list">
-        <span class="company-logos">
-          <img src="/company_logos/weebly.svg" alt="">
-        </span>
-        <span class="company-logos">
-          <img src="/company_logos/uber.svg" alt="">
-        </span>
-        <span class="company-logos">
-          <img src="/company_logos/slack.svg" alt="">
-        </span>
-        <span class="company-logos">
-          <img src="/company_logos/airbnb.svg" alt="">
-        </span>
-        <span class="company-logos">
-          <img src="/company_logos/spotify.svg" alt="">
-        </span>
+      <div class="container">
+        <span class="brand-title"><p>Trusted by the world's best</p></span>
+        <div class="brand-list">
+          <span class="company-logos">
+            <img src="/company_logos/weebly.svg" alt="">
+          </span>
+          <span class="company-logos">
+            <img src="/company_logos/uber.svg" alt="">
+          </span>
+          <span class="company-logos">
+            <img src="/company_logos/slack.svg" alt="">
+          </span>
+          <span class="company-logos">
+            <img src="/company_logos/airbnb.svg" alt="">
+          </span>
+          <span class="company-logos">
+            <img src="/company_logos/spotify.svg" alt="">
+          </span>
+        </div>  
       </div>
     </section>
 
@@ -331,83 +333,162 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-footer">
+    <!--Hire Us-->
+
+    <section class="hire-us">
         <div class="container">
-            <section class="footer-top">
-                <div class="footer-col">
-                    <h5>Need Help?</h5>
-                    <div class="contact-info">
-                        <ul>ero
-                            <li><i class="fas fa-map-marker-alt"></i>12965 Ridgeland Rd, Vancleave, MS 39565</li>
-                            <li><i class="fas fa-phone-alt"></i>+1 337 532 7733</li>
-                            <li><i class="fas fa-mobile-alt"></i>+1 337 532 7733</li>
-                            <li><i class="fas fa-envelope"></i>contact@coderad.com</li>
-                        </ul>
-                    </div>
-                    <div class="social-icons">
-                        <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-medium-m"></i></a></li>
-                        </ul>
-                    </div>
+          <div class="hire-left">
+            <div class="hire-top">
+              <div class="hire-title">
+                <h2>Hire Us</h2>
+                <p>Whatever your goal - <br> we will get your there</p>
+                <div class="hire-divider"></div>
+              </div>
+              <div class="hire-phrase"><p>“ I love Front! I love the ease of use, 
+                I love the fact that I have total creative freedom...”</p></div>
+            </div>
+            <div class="hire-bottom">
+              <div class="hire-person">
+                <h2>Charlotte Moore</h2>
+                <p>Head of Commercials, Slack</p>
+              </div>
+              <div class="hire-images">
+                <img src="/people/woman_two.jpg" alt="">
+                <img src="/people/woman_one.jpg" alt="">
+                <img class="man" src="/people/man_one.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="hire-right">
+            <div class="form">
+              <div class="form-data">
+                <p>Fill out the form and we'll be in touch as soon as possible</p>
+                <div class="form-group">
+                  <div class="form-input"><p>First Name</p></div>
+                  <div class="form-input"><p>Last Name</p></div>
                 </div>
-                <div class="footer-col">
-                    <h5>Services</h5>
-                    <div class="services-wrapper">
-                        <h5>Mobile Apps</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="services-wrapper">
-                        <h5>Brand Identity</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="services-wrapper">
-                        <h5>Social Media</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
+                <div class="form-group">
+                  <div class="form-input"><p>First Name</p></div>
+                  <div class="form-input"><p>Last Name</p></div>
                 </div>
-                <div class="footer-col">
-                    <h5>Recent Posts</h5>
-                    <div class="recent-posts">
-                        <div class="post-img-wrapper">
-                            <img src="/assets/images/blog1.jpg" alt="blog 1">
-                        </div>
-                        <div class="post-inner">
-                            <h6><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h6>
-                            <span>Sept 5th, 2020</span>
-                        </div>
-                    </div>
-                    <div class="recent-posts">
-                        <div class="post-img-wrapper">
-                            <img src="/assets/images/blog2.jpg" alt="blog 2">
-                        </div>
-                        <div class="post-inner">
-                            <h6><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h6>
-                            <span>Sept 18th, 2020</span>
-                        </div>
-                    </div>
+                <div class="form-group">
+                  <div class="form-select"><p>First Name</p><i class="fas fa-chevron-down"></i></div>
+                  <div class="form-select"><p>Last Name</p><i class="fas fa-chevron-down"></i></div>
                 </div>
-            </section>
+                  <div class="form-text">
+                    <p>Tell us more about your project, needs, and timeline, please...</p>
+                  </div>
+                <div class="form-group-1">
+                  <div class="check-box">
+                    <div class="boxy"></div>
+                  </div>
+                  <div class="form-label">
+                    <p>Yes, I'd like to receive occasional marketing emails from Front. 
+                      I have the right to opt out at any time.</p>
+                      <div class="frame-20">
+                        <div class="ajax"><p>View Privacy Policy</p><span></span></div>
+                        <div class="ajax"><p style="color: #2476FF;">View Privacy Policy</p><span style="color: #2476FF"></span></div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <span class="get-started">
+                <a class="btn btn-white" href="#">Get Started</a>
+              </span>
+            </div>
+          </div>
+        </div>   
+    </section>
+
+    <!-- Footer -->
+    <footer class="lead-footer">
+      <div class="container top-footer">
+        <div class="footer-1">
+          <div class="footer-contact">
+            <a class="footer-brand" href="index.html"><img src="/project_logo/logo.svg" alt=""></a>
+            <div class="footer-nav">
+              <div class="footer-menu">
+                <p><i class="fa-solid fa-location-arrow"></i> 153 Williamson Plaza, Maggieberg</p>
+              </div>
+              <div class="footer-phone">
+                <p style="color: #2476FF"><i class="fa-solid fa-phone" style="color:#677788;"></i> +1 (062) 109-9222</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <section class="footer-bottom">
-            <div class="footer-bottom-wrapper">
-                <div class="copyright">
-                    <p>Copyright @ 2022 CodeRAD Creations</p>
-                </div>
-                <div class="footer-bottom-links">
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Team</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Blog</a></li>
-                    </ul>
+        <div class="footer-2">
+          <div class="footer-info">
+            <div class="footer-company">
+              <h2>Company</h2>
+                <div class="footer-nav">
+                  <p>About</p>
+                  <div class="career">
+                    <p>Career </p> 
+                    <a class="career-btn" href="#"><p style="color: #FFFFFF; font-size: 8px; line-height: 15px;">We're Hiring</p></a>
+                  </div> 
+                  <p>Blog</p>
+                  <p>Customers</p>
+                  <p>Hire Us</p>
                 </div>
             </div>
-        </section>
+            <div class="footer-company">
+              <h2>Features</h2>
+                <div class="footer-nav">
+                  <p>Press</p>
+                  <p style="color: #2476FF">Release Notes</p>
+                  <p>Integrations</p>
+                  <p>Pricing</p>
+                </div>
+            </div>
+            <div class="footer-company">
+              <h2>Documentation</h2>
+                <div class="footer-nav">
+                  <p>Support</p>
+                  <p>Docs</p>
+                  <p>Status</p>
+                  <p>API Reference</p>
+                  <p>Tech Requirements</p>
+                </div>
+            </div>
+            <div class="footer-company">
+              <h2>Resources</h2>
+                <div class="footer-nav">
+                  <p><i class="fa-solid fa-circle-info"></i> Help</p>
+                  <p><i class="fa-solid fa-circle-user"></i> Your Account</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container"><div class="footer-break"></div></div>
+      <div class="container">
+        <div class="footer-bottom">
+          <div class="container bottom-1">
+            <div class="bottom-left">
+              <p>Privacy & Policy</p>
+              <p>></p>
+              <p style="color: #2476FF">Terms</p>
+              <p>></p>
+              <p>Site Map</p>
+            </div>
+            <div class="bottom-right">
+              <div class="social-1"><i class="fa-brands fa-facebook-f" style="color: #677788;"></i></div>
+              <div class="social-1" style="background: #677788"><i class="fa-brands fa-google" style="color: #ECF2FF"></i></div>
+              <div class="social-1"><i class="fa-brands fa-twitter" style="color: #677788;"></i></div>
+              <div class="social-1"><i class="fa-brands fa-github" style="color: #677788;"></i></div>
+              <div class="social-2">
+                <p><i class="fa-solid fa-flag-usa"></i> United States <i class="fa-solid fa-chevron-down"></i></p>
+              </div>
+            </div>  
+          </div>
+          <div class="footer-front">
+            <p>© Front. 2022 Responsive designs. All rights reserved.</p>
+            <p>When you visit or interact with our sites, services or tools, we or our authorized service 
+              providers may <br> use cookies for storing information to help provide you with a better, faster 
+              and safer experience and <br> for marketing purposes.</p>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script>
